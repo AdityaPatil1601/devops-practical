@@ -5,10 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello! DevOps Practical Running Successfully"
     return "My name is Aditya"
-    return "I live in Malad(w)"
-    return "Study in Dept CMPN"
 
 
 if __name__ == "__main__":
